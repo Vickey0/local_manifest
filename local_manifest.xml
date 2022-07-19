@@ -5,15 +5,16 @@
         <remote name="me"
                 fetch="https://github.com/Vickey0" />
  
- 
+        <remote name="arrow-hals"
         
-
+                fetch="https://github.com/ArrowOS" />
 
  <!--Trees-->
         <project path="device/realme/RMX1801" name="device_realme_RMX1801" remote="me" revision="s12.1" />
         <project path="vendor/realme" name="android_vendor_realme_RMX1801" remote="me" revision="arrow-12.0" />
         <project path="kernel/realme/sdm660" name="android_kernel_realme_sdm660" remote="me" revision="arrow-12.0" />
  
- 
- 
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow-hals" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow-hals" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow-hals" revision="arrow-12.1-caf-msm8998" />
 </manifest>

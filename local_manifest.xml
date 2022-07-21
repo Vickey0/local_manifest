@@ -5,9 +5,9 @@
         <remote name="me"
                 fetch="https://github.com/Vickey0" />
  
-        <remote name="arrow-hals"
         
-                fetch="https://github.com/ArrowOS" />
+        
+                
 
  <!--Trees-->
         <project path="device/realme/RMX1801" name="device_realme_RMX1801" remote="me" revision="s12.1" />
